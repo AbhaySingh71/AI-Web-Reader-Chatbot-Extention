@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>AI Web Reader Chatbot Extension</title>
-</head>
-<body style="font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto;">
-
   <h1>🧠 AI Web Reader Chatbot Extension</h1>
   <p>
     A Chrome Extension that scrapes webpage content and uses <strong>Google Gemini 2.0 Flash</strong> via <strong>LangChain</strong> to intelligently answer user questions based on the current page content. Ideal for product descriptions, portfolio sites, and general webpage summaries — all powered by AI 🚀
@@ -112,15 +104,5 @@ USER_AGENT=ai-web-reader-bot
   </p>
 
   <hr>
-
-  <h2>✨ Future Ideas</h2>
-  <ul>
-    <li>[ ] Add support for summarizing long pages</li>
-    <li>[ ] Upload screenshots to Gemini-vision</li>
-    <li>[ ] Voice-to-text support</li>
-    <li>[ ] Dark mode UI</li>
-    <li>[ ] Edge browser support</li>
-  </ul>
-
 </body>
 </html>
