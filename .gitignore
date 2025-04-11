@@ -1,0 +1,11 @@
+# Python & secrets
+venv/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# Node (if using frontend packages)
+node_modules/
+dist/
+build/

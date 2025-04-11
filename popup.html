@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Assistant</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="header" style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+        <img id="logo" src="web ai logo.png" alt="AI Logo" style="width: 100px; height: 100px; object-fit: contain;">
+        <h3 style="margin: 0; font-size: 18px; color: #64a6c7;">AI Chat Assistant</h3>
+    </div>
+
+    <div id="chatContainer">
+        <div id="chatMessages"></div> <!-- 📌 Chat history will be shown here -->
+    </div>
+
+    <div id="inputContainer">
+        <input type="text" id="userQuery" placeholder="Type your question..." autocomplete="off">
+        <button id="askBtn">➤</button>
+    </div>
+
+    <div id="loadingIndicator" class="hidden">⏳ Thinking...</div> <!-- 🔄 Loading Indicator -->
+
+    <script src="popup.js"></script>
+</body>
+</html>
