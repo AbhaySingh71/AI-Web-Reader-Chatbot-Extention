@@ -10,7 +10,8 @@ https://github.com/user-attachments/assets/a9931e11-671e-4ec3-9354-cb091389fa0f
 
 
   <h2>📸 Demo Preview</h2>
-  | ![Screenshot 1](Asset/photo1.png) | ![Screenshot 2](Asset/photo2.png) | 
+  
+  | ![Screenshot 1](assets/photo1.png) | ![Screenshot 2](assets/photo2.png) | 
   |---------------------------------|---------------------------------|  
   <hr>
 
