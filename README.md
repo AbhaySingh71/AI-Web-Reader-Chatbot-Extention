@@ -110,11 +110,10 @@ USER_AGENT=ai-web-reader-bot
   <hr>
 
   <h2>📣 Credits</h2>
-  <p>
-    Built by <a href="https://github.com/AbhaySingh71" target="_blank">Abhay Singh</a><br>
-    Powered by Google Gemini and LangChain ❤️
-  </p>
-
+<p>
+  Built with ❤️ by <a href="https://github.com/AbhaySingh71" target="_blank">Abhay Singh</a><br>
+  Powered by Google Gemini, LangChain
+</p>
   <hr>
 </body>
 </html>
