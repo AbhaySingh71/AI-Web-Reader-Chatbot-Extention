@@ -1,7 +1,11 @@
   <h1>🧠 AI Web Reader Chatbot Extension</h1>
   <p>
-    A Chrome Extension that scrapes webpage content and uses <strong>Google Gemini 2.0 Flash</strong> via <strong>LangChain</strong> to intelligently answer user questions based on the current page content. Ideal for product descriptions, portfolio sites, and general webpage summaries — all powered by AI
-  </p>
+  A Chrome Extension that scrapes webpage content and uses <strong>Google Gemini 2.0 Flash</strong> via <strong>LangChain</strong> to intelligently answer user questions based on the current page content.
+</p>
+
+<p>
+  It supports smart webpage parsing using <code>BeautifulSoup</code>, <code>LangChain WebBaseLoader</code>, and <code>SeleniumURLLoader</code> — making it highly versatile for both static and JavaScript-heavy websites. Ideal for product pages, portfolio sites, news articles, blog summaries, and more.
+</p>
 
   <hr>
 
@@ -16,14 +20,15 @@ https://github.com/user-attachments/assets/a9931e11-671e-4ec3-9354-cb091389fa0f
   <hr>
 
   <h2>💡 Features</h2>
-  <ul>
-    <li>✅ Chrome Extension UI</li>
-    <li>✅ Scrapes live webpage content</li>
-    <li>✅ Uses LangChain with <code>gemini-2.0-flash</code> for blazing fast responses</li>
-    <li>✅ Answers contextual questions </li>
-    <li>✅ <code>.env</code> secured Gemini API key</li>
-    <li>✅ Clean, modular Python backend with Flask</li>
-  </ul>
+<ul>
+  <li>✅ Chrome Extension UI</li>
+  <li>✅ Scrapes and analyzes live webpage content using BeautifulSoup</li>
+  <li>✅ Supports both static and dynamic pages via <code>WebBaseLoader</code> and <code>SeleniumURLLoader</code></li>
+  <li>✅ Uses LangChain with <code>gemini-2.0-flash</code> for blazing fast, contextual responses</li>
+  <li>✅ Answers questions intelligently based on current webpage context</li>
+  <li>✅ Secure Gemini API key using <code>.env</code></li>
+  <li>✅ Clean, modular Flask backend</li>
+</ul>
 
   <hr>
 
@@ -84,12 +89,14 @@ USER_AGENT=ai-web-reader-bot
 
   <h2>💻 Technologies Used</h2>
   <ul>
-    <li>🧠 Google Gemini 2.0 Flash (via <code>google-generativeai</code>)</li>
-    <li>🔗 LangChain</li>
-    <li>🧪 Flask</li>
-    <li>🌐 Chrome Extension APIs</li>
-    <li>🎨 HTML, CSS, JavaScript</li>
-  </ul>
+  <li>🧠 Google Gemini 2.0 Flash (via <code>google-generativeai</code>)</li>
+  <li>🔗 LangChain</li>
+  <li>🌐 BeautifulSoup</li>
+  <li>🕹️ LangChain WebBaseLoader</li>
+  <li>📸 LangChain SeleniumURLLoader</li>
+  <li>🧪 Flask</li>
+  <li>🎨 HTML, CSS, JavaScript (Chrome Extension)</li>
+</ul>
 
   <hr>
 
