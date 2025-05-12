@@ -9,7 +9,7 @@
 
   <hr>
 
-  ![web ai chatbot banner image](https://github.com/user-attachments/assets/17275b6a-1fe2-46d6-b27e-4e41e783110c)
+![ChatGPT Image May 12, 2025, 09_39_58 PM](https://github.com/user-attachments/assets/9e0460d0-f486-4d9e-b0b1-79bc30187035)
 
 
 
