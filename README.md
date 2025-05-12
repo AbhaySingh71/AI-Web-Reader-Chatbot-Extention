@@ -9,6 +9,9 @@
 
   <hr>
 
+  ![web ai chatbot banner image](https://github.com/user-attachments/assets/17275b6a-1fe2-46d6-b27e-4e41e783110c)
+
+
 
 https://github.com/user-attachments/assets/a9931e11-671e-4ec3-9354-cb091389fa0f
 
